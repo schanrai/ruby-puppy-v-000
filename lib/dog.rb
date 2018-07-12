@@ -11,7 +11,7 @@ class Dog
   end
 
   def self.all
-    @@all.map { |doggy| doggy.name }
+    @@all.map {|doggy| doggy.name }
   end
 
   def self.clear_all
