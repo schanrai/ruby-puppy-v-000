@@ -11,8 +11,8 @@ class Dog
       @all.map {|dog| dog.name}
     end
 
-    #You will need to write a class method, `.all`, that iterates over all of the individual dogs stored in the `@@all` array 
-    #and `puts` out their name to the terminal. 
+    #You will need to write a class method, `.all`, that iterates over all of the individual dogs stored in the `@@all` array
+    #and `puts` out their name to the terminal.
 
 
 end
