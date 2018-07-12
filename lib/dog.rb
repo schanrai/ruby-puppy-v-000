@@ -8,7 +8,7 @@ class Dog
     end
 
     def self.all
-      @all.map {|dog| dog.name}
+      @all.map {|dog| puts dog.name}
     end
 
     #You will need to write a class method, `.all`, that iterates over all of the individual dogs stored in the `@@all` array
