@@ -11,8 +11,8 @@ class Dog
   end
 
   def self.all
-    @all.each do | doggy |
-      puts "#{name}"
+    @all.each do |doggy|
+      puts doggy.name
     end
   end
 
